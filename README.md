@@ -13,7 +13,7 @@ Antes de tudo crie um arquivo **.env** e coloque dentro desse arquivo as seguint
  ADMIN=71248129712824234 //E o ID da pessoa que poderá usar os comandos
 ```
 ### Depois use
-```sh
+```
 npm install dotenv discord.js @replit/database axios express
 ```
 ### E adicione a URL do seu projeto da [repl.it](https://repl.it/) em um site de monitoramento
@@ -22,7 +22,7 @@ npm install dotenv discord.js @replit/database axios express
 - **[FreshPing](https://www.freshworks.com/website-monitoring/login/)**
 - **[UptimeRobot](https://uptimerobot.com/)**
 ## Com Webhook
-```sh
+```
 Adicionando um webhook para enviar as mensagens que são enviadas no console direto em um canal de texto do Discord
 ```
 Primeiro adicione mais duas coisinhas dentro do arquivo **.env**
