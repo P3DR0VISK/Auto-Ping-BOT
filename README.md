@@ -1,2 +1,2 @@
-### A [Discord](https://discord.com/) bot made to maintain projects online!
-### I'm still learning javascript, so the code may contain errors -_-
+### Um bot [Discord] (https://discord.com/) feito para manter projetos online!
+### Ainda estou aprendendo javascript, então o código pode apresentar erros -_-
