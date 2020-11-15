@@ -81,6 +81,17 @@ client.on('message', async (message) => {
             return message.channel.send(`❌ | ${message.member}, ocorreu um erro ao mostrar a lista de links\n\`\`\`css\n${err}\`\`\``).then(msg => { msg.delete({ timeout: 15000 }).catch(() => { }) });
         };
     };
+    
+    if (cmd === 'help') {
+        const admin = client.users.cache.get(process.env.ADMIN) || await client.users.fetch(process.env.ADMIN, true) || 'Desconhecido';
+        const avatar = admin.avatarURL({ format: 'png', dynamic: true, size: 4096 }) || admin.displayAvatarURL({ format: 'png', dynamic: true, size: 4096 }) || '';
+
+        const embed = new MessageEmbed()
+            .setColor(3092790)
+            .addField('**Comandos**', `\`\`\`js\n${process.env.PREFIX}add\n${process.env.PREFIX}remove\n${process.env.PREFIX}list\`\`\``)
+            .setFooter(`Administrador: ${admin.tag}`, avatar)
+        return message.channel.send(message.member, embed);
+    };
 
 });
 
