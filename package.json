@@ -1,0 +1,12 @@
+{
+  "name": "auto-ping-bot",
+  "version": "1.0.0",
+  "description": "Um Bot de Discord!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node  index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VrickTheus",
+  "license": "ISC"
+}
