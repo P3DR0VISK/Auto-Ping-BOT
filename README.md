@@ -21,7 +21,7 @@ npm install dotenv discord.js @replit/database axios express
 - **[BetterUptime](https://betteruptime.com/)**
 - **[FreshPing](https://www.freshworks.com/website-monitoring/login/)**
 - **[UptimeRobot](https://uptimerobot.com/)**
-## Com Webhook
+## Com Webhook [Não é necessário]
 ```
 Adicionando um webhook para enviar as mensagens que são enviadas no console direto em um canal de texto do Discord
 ```
