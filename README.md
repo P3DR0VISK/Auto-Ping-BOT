@@ -6,13 +6,18 @@
 - **[https://discord.gg/6VMxT8k](https://discord.gg/6VMxT8k)**
 # Instalação
 Antes de tudo crie um arquivo **.env** e coloque dentro desse arquivo as seguintes coisas abaixo:
-- Coloque o token do bot,
-- De quantos em quantos minutos o pode vai pingar,
-- O prefixo do bot
-- E o ID da pessoa que poderá usar os comandos.
-```sh
-TOKEN=
-TIME=
-PREFIX=
-ADMIN=
+```js
+ TOKEN= //Coloque o token do bot
+ TIME=5  //De quantos em quantos minutos o bot vai pingar
+ PREFIX=! //O prefixo do bot
+ ADMIN=71248129712824234 //E o ID da pessoa que poderá usar os comandos
 ```
+### Depois use
+```sh
+npm install dotenv discord.js @replit/database axios express
+```
+### E adicione a URL do seu projeto da [repl.it](https://repl.it/) em um site de monitoramento
+**Sugestões**
+- **[BetterUptime](https://betteruptime.com/)**
+- **[FreshPing](https://www.freshworks.com/website-monitoring/login/)**
+- **[UptimeRobot](https://uptimerobot.com/)**
