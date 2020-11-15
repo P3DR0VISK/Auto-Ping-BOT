@@ -4,6 +4,16 @@
 - **O código pode apresentar erros porque sou um iniciante, então fique a vontade para modificá-lo**
 ## Entre no meu servidor se precisar de ajuda
 - **[https://discord.gg/6VMxT8k](https://discord.gg/6VMxT8k)**
+
+|Comandos|Quem pode usar|
+|---|---|
+|Help|Todos|
+|List|Todos|
+|Add|Admin|
+|remove|Admin|
+
+- **Novos comandos? Aceito sugestões basta entrar no meu [servidor](https://discord.gg/6VMxT8k)**
+
 # Instalação
 Antes de tudo crie um arquivo **.env** e coloque dentro desse arquivo as seguintes coisas abaixo:
 ```js
