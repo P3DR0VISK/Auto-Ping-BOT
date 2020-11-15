@@ -10,7 +10,7 @@
 |Add|Admin|
 |remove|Admin|
 
-- **Novos comandos? Aceito sugestões basta entrar no meu [servidor](https://discord.gg/6VMxT8k)**
+- **Novos comandos? Aceito sugestões!
 
 # Instalação
 Antes de tudo crie um arquivo **.env** e coloque dentro desse arquivo as seguintes coisas abaixo:
