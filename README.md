@@ -1,2 +1,2 @@
-### A bot made to maintain projects from glitch or repl.it, among others online
+### A [Discord](https://discord.com/) bot made to maintain projects online!
 ### I'm still learning javascript, so the code may contain errors -_-
