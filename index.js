@@ -88,7 +88,7 @@ client.on('message', async (message) => {
 
         const embed = new MessageEmbed()
             .setColor(3092790)
-            .addField('**Comandos**', `\`\`\`js\n${process.env.PREFIX}add\n${process.env.PREFIX}remove\n${process.env.PREFIX}list\`\`\``)
+            .addField('**Comandos**', `\`\`\`\n${process.env.PREFIX}add\n${process.env.PREFIX}remove\n${process.env.PREFIX}list\`\`\``)
             .setFooter(`Administrador: ${admin.tag}`, avatar)
         return message.channel.send(message.member, embed);
     };
